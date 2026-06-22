@@ -1,0 +1,20 @@
+{
+  "name": "stuff-json-db",
+  "version": "0.1.0",
+  "description": "A tiny JSON-file document database for Rust, JavaScript, and TypeScript.",
+  "main": "js/dist/index.js",
+  "types": "js/dist/index.d.ts",
+  "files": [
+    "js/dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "cargo build --release && tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test js/test/*.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
