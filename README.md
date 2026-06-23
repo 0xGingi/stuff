@@ -27,9 +27,6 @@ If `stuff` rejects it, it was bad stuff.
 Performance?
 JSON parse once. Vibes until the file gets too large.
 
-Enterprise version?
-`StuffCloud(TM)`, legally imaginary.
-
 ## what it actually does
 
 - Stores everything in one readable JSON file.
